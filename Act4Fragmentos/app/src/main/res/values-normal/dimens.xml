@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Con esto ponemos de cuánto queremos el taño a llamar -->
+    <dimen name="minimo" tools:ignore="MissingDefaultResource">32dp</dimen>
+    <dimen name="medio" tools:ignore="MissingDefaultResource">60dp</dimen>
+    <dimen name="texto" tools:ignore="MissingDefaultResource">12dp</dimen>
+    <dimen name="largo" tools:ignore="MissingDefaultResource">100dp</dimen>
+    <dimen name="maximo" tools:ignore="MissingDefaultResource">3000dp</dimen>
+
+</resources>

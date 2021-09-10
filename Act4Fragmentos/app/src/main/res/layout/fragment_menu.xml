@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Menu"
+    android:layout_gravity="center_horizontal">
+
+
+    <!-- Creamos otro LinearLayout (contenedor) para más comodidad -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+
+        <!-- Ahora si creamos los botones -->
+        <ImageButton
+            android:id="@+id/Libro1"
+            style="@style/botones"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/num1"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <!--Ponemos espacios-->
+        <Space style="@style/espacio"/>
+
+        <ImageButton
+            android:id="@+id/Libro2"
+            style="@style/botones"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/num22"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <!--Ponemos espacios-->
+        <Space style="@style/espacio"/>
+
+        <ImageButton
+            android:id="@+id/Libro3"
+            style="@style/botones"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/num3"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    </LinearLayout>
+    </FrameLayout>

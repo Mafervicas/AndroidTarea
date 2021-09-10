@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Con esto pondremos de manera global las dimensiones de los botones -->
+    <style name="botones">
+        <item name="android:layout_width">@dimen/largo</item>
+        <item name="android:layout_height">@dimen/largo</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!-- Estilo para Margen entre botones -->
+    <style name="espacio">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Libro1">
+
+    <!-- Mandamos traer el fragmento creado -->
+
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.example.act4fragmentos.Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_menu" />
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/Colera"
+        android:layout_width="800px"
+        android:layout_height="800px"
+        android:layout_gravity="center"
+        android:src="@drawable/colera" />
+
+
+
+</FrameLayout>
